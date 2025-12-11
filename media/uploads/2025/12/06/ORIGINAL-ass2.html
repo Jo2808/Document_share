@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .navbar{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .navbar h1{
+            margin: 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            margin: 0 10px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .navbar ul li a:hover {
+            color: #00bcd4;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>ALPHABET</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="btn-container">
+        <h2>SOLID BUTTON</h2><br>
+        <button class="btn btn-primary ms-5">Hello</button>
+        <button class="btn btn-secondary">Hello</button>
+        <button class="btn btn-danger">Hello</button>
+        <button class="btn btn-warning">Hello</button>
+        <button class="btn btn-success">Hello</button>
+        <button class="btn btn-info">Hello</button>
+        <button class="btn btn-light">Hello</button>
+        <button class="btn btn-dark">Hello</button>
+        
+    </div>
+    <br>
+    <div class="outline">
+        <h2>OUTLINE BUTTON</h2><br>
+        <button class="btn btn-outline-primary ms-5">World</button>
+        <button class="btn btn-outline-secondary">World</button>
+        <button class="btn btn-outline-danger">World</button>
+        <button class="btn btn-outline-warning">World</button>
+        <button class="btn btn-outline-success">World</button>
+        <button class="btn btn-outline-info">World</button>
+        <button class="btn btn-outline-light">World</button>
+        <button class="btn btn-outline-dark">World</button>
+
+    </div><br>
+    <div class="button-group">
+        <h2>BUTTON GROUP</h2><br>
+        <div class="btn-group">
+            <button class="btn btn-primary ms-5">Stop</button>
+            <button class="btn btn-secondary">Ready</button>
+            <button class="btn btn-info">Go</button>
+        </div><br><br>
+        <div class="btn-group">
+            <button class="btn btn-danger ms-5">HTML</button>
+            <button class="btn btn-warning">CSS</button>
+            <button class="btn btn-success">Java Script</button>
+        </div><br><br>
+        <div class="btn btn-group">
+            <button class="btn btn-info ms-5">Frontend</button>
+            <button class="btn btn-light">Backend</button>
+            <button class="btn btn-dark">Fullstack</button>
+        </div>
+        
+    </div>
+</body>
+</html>
